@@ -57,7 +57,7 @@ class Boot317R2dbcApplicationTests {
 
     @Test
     void connection() throws IOException {
-
+        System.out.println("测试git");
 //        ConnectionFactory connectionFactory = ConnectionFactories.get("r2dbc:mysql://localhost:3306/teachers");
         MySqlConnectionConfiguration configuration = MySqlConnectionConfiguration.builder()
                 .host("localhost")
