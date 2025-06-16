@@ -64,6 +64,7 @@ class Boot317R2dbcApplicationTests {
         System.out.println("github修改");
         System.out.println("github修改之后本地库进行修改");
         System.out.println("github修改2");
+        System.out.println("LHB修改");
         //        ConnectionFactory connectionFactory = ConnectionFactories.get("r2dbc:mysql://localhost:3306/teachers");
         MySqlConnectionConfiguration configuration = MySqlConnectionConfiguration.builder()
                 .host("localhost")
