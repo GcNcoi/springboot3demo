@@ -60,7 +60,6 @@ class Boot317R2dbcApplicationTests {
         System.out.println("测试git");
         System.out.println("测试git hot-fix 分支");
         System.out.println("git master 分支");
-        System.out.println("git hot-fix test 分支");
 //        ConnectionFactory connectionFactory = ConnectionFactories.get("r2dbc:mysql://localhost:3306/teachers");
         MySqlConnectionConfiguration configuration = MySqlConnectionConfiguration.builder()
                 .host("localhost")
