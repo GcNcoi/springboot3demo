@@ -1,0 +1,19 @@
+server:
+  port: 9999
+  error:
+    path: /error
+logging:
+  pattern:
+#    console: '%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%thread] %logger{15} ===> %msg%n'
+    dateformat: yyyy-MM-dd HH:mm:ss.SSS
+
+spring:
+  mvc:
+    webjars-path-pattern: /wj/**
+    static-path-pattern: /static/**
+    #开启基于请求参数的内容协商功能。默认参数名：format 默认此功能不开启
+    contentnegotiation:
+      favor-parameter: true
+      parameter-name: type
+      media-types:
+        yaml: text/yaml

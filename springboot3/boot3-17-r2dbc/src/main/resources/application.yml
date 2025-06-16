@@ -1,0 +1,12 @@
+spring:
+  r2dbc:
+    username: root
+    password: 1234
+    url: r2dbc:mysql://127.0.0.1:3306/teachers
+    properties:
+      serverTimezone: Asia/Shanghai
+logging:
+  level:
+    org:
+      springframework:
+        r2dbc: debug
