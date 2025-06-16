@@ -66,6 +66,7 @@ class Boot317R2dbcApplicationTests {
                 .password("1234")
                 .database("teachers")
                 .build();
+
         MySqlConnectionFactory connectionFactory = MySqlConnectionFactory.from(configuration);
 
         Mono.from(connectionFactory.create())
